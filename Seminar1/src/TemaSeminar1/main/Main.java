@@ -11,7 +11,7 @@ public class Main {
         Profesor profesor1 = new Profesor("Andreea", 21, "1");
         Curs curs1= new Curs("Curs1", 10, profesor1);
 
-        Student student1 = new Student("Andreea", 21, "2");
+        Student student1 = new Student("Natalia", 21, "2");
         Student student2 = new Student("Maria", 22, "3");
 
         curs1.adaugaStudent(student1);
