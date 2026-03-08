@@ -10,9 +10,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class AngajatiReader extends AplicantReader {
+public class AngajatReader extends AplicantReader {
 
-    public AngajatiReader(String numeFisier) {
+    public AngajatReader(String numeFisier) {
         super(numeFisier);
     }
 

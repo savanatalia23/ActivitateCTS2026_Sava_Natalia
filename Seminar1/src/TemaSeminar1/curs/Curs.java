@@ -34,12 +34,11 @@ public class Curs {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Curs{");
-        sb.append("numeCurs='").append(numeCurs).append('\'');
-        sb.append(", credite=").append(credite);
-        sb.append(", profesor=").append(profesor);
-        sb.append(", listaStudenti=").append(listaStudenti);
-        sb.append('}');
+        final StringBuilder sb = new StringBuilder("Curs: ");
+        sb.append("numeCurs:  ").append(numeCurs);
+        sb.append(", credite: ").append(credite);
+        sb.append(", profesor: ").append(profesor);
+        sb.append(", listaStudenti: ").append(listaStudenti);
         return sb.toString();
     }
 }
