@@ -3,9 +3,7 @@ package ro.ase.seminar4.singleton.main;
 import ro.ase.seminar4.singleton.clase.Logger;
 
 public class Program {
-
-    static void main() {
-
+    static void main(String[] args) {
         Logger instanta = Logger.getInstance("Interfata", "afisare");
 
         instanta.afisareLog("Fisierul json nu este afisat corect");
@@ -21,4 +19,5 @@ public class Program {
 
         //atentie constructorul sa fie PRIVAT!!
     }
+
 }
