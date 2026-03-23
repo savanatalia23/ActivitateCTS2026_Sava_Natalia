@@ -44,9 +44,9 @@ public class Rezervare implements IRezervare{
 
     private Rezervare() { }
 
-
     @Override
     public String toString() {
+
         final StringBuilder sb = new StringBuilder("Rezervare: ");
         sb.append("numeClient='").append(numeClient).append('\'');
         sb.append(", ora=").append(ora);
@@ -57,7 +57,6 @@ public class Rezervare implements IRezervare{
 
     @Override
     public IRezervare copiaza() {
-
 
             Rezervare rezervare  = new Rezervare();
             rezervare.ora = this.ora;
