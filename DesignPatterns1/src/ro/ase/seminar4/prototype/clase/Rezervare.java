@@ -11,7 +11,6 @@ public class Rezervare implements IRezervare{
         this.numeClient = numeClient;
         if (ora>= 11 &&  ora<= 22){
             this.ora = ora;
-
         }
         else{
             this.ora=11;
@@ -59,6 +58,7 @@ public class Rezervare implements IRezervare{
     public IRezervare copiaza() {
 
             Rezervare rezervare  = new Rezervare();
+
             rezervare.ora = this.ora;
             rezervare.nrCard = this.nrCard;
             rezervare.nrPersoane = this.nrPersoane;

@@ -1,6 +1,7 @@
 package ro.ase.seminar4.builder.clase;
 
 public class InternareBuilder implements InternareBuilderAbstract {
+
     private Internare internare;
 
     public InternareBuilder(String nume) {
