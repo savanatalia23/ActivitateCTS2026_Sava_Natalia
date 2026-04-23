@@ -3,8 +3,9 @@ package Facade.Clase;
 public class Salon {
 
     private boolean paturiLibere[] = new boolean[20];
+    private static Salon instanta = null;
 
-    public Salon() {
+    private Salon() {
         this.paturiLibere[2] = true;
         this.paturiLibere[10] = true;
         this.paturiLibere[12] = true;
@@ -24,6 +25,12 @@ public class Salon {
     public void ocupaPat(int numarPat)
     {
         this.paturiLibere[numarPat] = false;
+    }
+
+    public static Salon getInstance(){
+        if(instanta == null)
+            instanta = new Salon();
+        return instanta;
     }
 
 }

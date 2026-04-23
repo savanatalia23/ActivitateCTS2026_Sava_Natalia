@@ -13,7 +13,7 @@ public class Main {
         Pacient pacient3 = new Pacient(3, "Ioana");
 
         Medic medic = new Medic(" Andreea");
-        Salon salon = new Salon();
+
 
 //        if(pacient.getGravitate()>=4){
 //            if(medic.areBiletDeTrimitere(pacient)){
@@ -29,7 +29,7 @@ public class Main {
 //            }
 //        }
 
-        SpitalFacade facade = new SpitalFacade(new Medic("Maria"), new Salon());
+        SpitalFacade facade = new SpitalFacade(new Medic("Maria"), Salon.getInstance());
 
         facade.interneazaPacient(pacient1);
         facade.interneazaPacient(pacient2);
