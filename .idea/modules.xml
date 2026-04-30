@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Seminar4/DesignPatterns.iml" filepath="$PROJECT_DIR$/Seminar4/DesignPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatternsComportamentale/DesignPatternsComportamentale.iml" filepath="$PROJECT_DIR$/DesignPatternsComportamentale/DesignPatternsComportamentale.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns1/DesignPatternsCreationale.iml" filepath="$PROJECT_DIR$/DesignPatterns1/DesignPatternsCreationale.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatternsStructurale/DesignPatternsStructurale.iml" filepath="$PROJECT_DIR$/DesignPatternsStructurale/DesignPatternsStructurale.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar1/Seminar1.iml" filepath="$PROJECT_DIR$/Seminar1/Seminar1.iml" />
