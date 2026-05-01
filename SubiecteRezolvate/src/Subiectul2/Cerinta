@@ -1,0 +1,42 @@
+Se dezvoltă o aplicație software pentru gestionarea rezervărilor într-o sală de fitness.
+Sistemul trebuie să permită configurarea unor abonamente personalizate pentru clienți și gestionarea centralizată a rezervărilor.
+
+Cerință principală (4p)
+
+Se dorește implementarea unui sistem care permite crearea unor abonamente fitness personalizate.
+
+Fiecare abonament poate avea următoarele caracteristici:
+
+tip abonament (Basic, Premium, VIP)
+acces la clase de grup (boolean)
+acces la antrenor personal (boolean)
+număr de ședințe incluse
+durată (în zile)
+opțiuni suplimentare (ex: nutriționist, masaj)
+Crearea acestor abonamente trebuie să fie flexibilă și să permită combinarea diferitelor opțiuni fără a avea constructori foarte mari.
+
+Cerință:
+Implementați un mecanism de creare a abonamentelor folosind pattern-ul Builder.
+
+Cerință separată – gestionare rezervări (3p)
+
+Sistemul trebuie să includă o componentă centrală care:
+
+gestionează toate rezervările făcute de clienți
+permite adăugarea unei rezervări
+afișează toate rezervările existente
+nu permite existența mai multor instanțe ale acestei componente
+
+Cerință:
+Această componentă va fi implementată folosind pattern-ul Singleton.
+
+Integrare (1p)
+Se vor crea minim 4 abonamente diferite folosind Builder
+Se vor face minim 4 rezervări, dintre care:
+cel puțin două folosesc același tip de abonament
+Rezervările vor fi gestionate prin instanța unică
+
+Constrângeri
+Nu este permisă instanțierea directă a clasei Singleton
+Builder-ul trebuie să permită setarea treptată a opțiunilor
+Codul trebuie să respecte principiile Clean Code (KISS, DRY, SOLID)
