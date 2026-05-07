@@ -1,11 +1,8 @@
-package DPComportamentale.Strategy.main;
+package DPComportamentale.Strategy.ex1.main;
 
-import DPComportamentale.Strategy.clase.ProbaGrila;
-import DPComportamentale.Strategy.clase.ProbaOrala;
-import DPComportamentale.Strategy.clase.ProbaScrisa;
-import DPComportamentale.Strategy.clase.Student;
-
-import javax.print.attribute.standard.MediaSize;
+import DPComportamentale.Strategy.ex1.clase.ProbaOrala;
+import DPComportamentale.Strategy.ex1.clase.ProbaScrisa;
+import DPComportamentale.Strategy.ex1.clase.Student;
 
 public class Main {
     static void main(String[] args) {

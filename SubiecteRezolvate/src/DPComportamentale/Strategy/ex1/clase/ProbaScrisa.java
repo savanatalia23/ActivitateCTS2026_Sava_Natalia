@@ -1,4 +1,4 @@
-package DPComportamentale.Strategy.clase;
+package DPComportamentale.Strategy.ex1.clase;
 
 public class ProbaScrisa implements ModSustinere{
 
