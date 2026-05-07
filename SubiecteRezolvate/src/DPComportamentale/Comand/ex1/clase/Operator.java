@@ -1,4 +1,4 @@
-package DPComportamentale.Comand.clase;
+package DPComportamentale.Comand.ex1.clase;
 
 import java.util.ArrayList;
 import java.util.List;

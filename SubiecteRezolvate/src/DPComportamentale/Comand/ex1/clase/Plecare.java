@@ -1,4 +1,4 @@
-package DPComportamentale.Comand.clase;
+package DPComportamentale.Comand.ex1.clase;
 
 public class Plecare implements Command{
 

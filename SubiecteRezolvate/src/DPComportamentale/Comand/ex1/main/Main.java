@@ -1,9 +1,9 @@
-package DPComportamentale.Comand.main;
+package DPComportamentale.Comand.ex1.main;
 
-import DPComportamentale.Comand.clase.Autobuz;
-import DPComportamentale.Comand.clase.Command;
-import DPComportamentale.Comand.clase.Operator;
-import DPComportamentale.Comand.clase.Plecare;
+import DPComportamentale.Comand.ex1.clase.Autobuz;
+import DPComportamentale.Comand.ex1.clase.Command;
+import DPComportamentale.Comand.ex1.clase.Operator;
+import DPComportamentale.Comand.ex1.clase.Plecare;
 
 public class Main {
     static void main(String[] args) {
