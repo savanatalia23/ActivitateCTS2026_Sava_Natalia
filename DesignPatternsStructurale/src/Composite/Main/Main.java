@@ -18,6 +18,8 @@ public class Main {
         ((Departament)depSpital).adaugaStructura(sectieManagement);
         ((Departament)depAdministrativ).adaugaStructura(sectieSecretariat);
 
+        ((Departament) depSpital).getStructura(1).afiseazaDetaliiStructura(" ");
+
         depSpital.afiseazaDetaliiStructura("");
 
         ((Departament)depSpital).stergeStructura(sectieManagement);
@@ -26,7 +28,6 @@ public class Main {
         System.out.println("\nDupa modificare:\n");
 
         depSpital.afiseazaDetaliiStructura("");
-
 
     }
 }

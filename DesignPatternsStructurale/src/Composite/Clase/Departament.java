@@ -28,7 +28,7 @@ public class Departament implements Structura{
     public void stergeStructura(Structura structura){
         this.subStructuri.remove(structura);
     }
-    public void getStructura( int pozitie){
-        this.subStructuri.get(pozitie);
+    public Structura getStructura( int pozitie){
+        return this.subStructuri.get(pozitie);
     }
 }
