@@ -1,8 +1,8 @@
-package DPStructurale.Strategy.ex1.main;
+package DPComportamentale.Strategy.ex2.main;
 
-import DPStructurale.Strategy.ex1.clase.Calator;
-import DPStructurale.Strategy.ex1.clase.CardBancar;
-import DPStructurale.Strategy.ex1.clase.SMS;
+import DPComportamentale.Strategy.ex2.clase.Calator;
+import DPComportamentale.Strategy.ex2.clase.CardBancar;
+import DPComportamentale.Strategy.ex2.clase.SMS;
 
 public class Main {
     static void main(String[] args) {

@@ -1,4 +1,4 @@
-package DPStructurale.Strategy.ex1.clase;
+package DPComportamentale.Strategy.ex2.clase;
 
 public class CardBancar implements TipDePlata {
 
