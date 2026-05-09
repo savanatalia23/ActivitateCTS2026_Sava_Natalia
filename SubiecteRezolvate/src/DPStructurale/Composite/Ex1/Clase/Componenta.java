@@ -26,7 +26,7 @@ public class Componenta extends Structura{
 
     @Override
     public void afiseazaDetaliiStructura(String spatii) {
-        System.out.println(spatii + "Sectiune: " + this.numeStructura);
+        System.out.println(spatii + this.numeStructura);
         for(Structura struct : listaSubStructuri)
         {
             struct.afiseazaDetaliiStructura(spatii + "   ");
