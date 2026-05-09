@@ -20,8 +20,8 @@ public class Componenta extends Structura{
     {
         listaSubStructuri.remove(structura);
     }
-    public void getStructura(int pozitie){
-        listaSubStructuri.get(pozitie);
+    public Structura getStructura(int pozitie){
+        return listaSubStructuri.get(pozitie);
     }
 
     @Override

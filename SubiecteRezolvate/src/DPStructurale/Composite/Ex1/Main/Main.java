@@ -21,5 +21,13 @@ public class Main {
 
         meniu.afiseazaDetaliiStructura(" ");
 
+        System.out.println("-------------------------------------");
+        ((Componenta)meniu).getStructura(1).afiseazaDetaliiStructura(" ");
+
+        System.out.println("-------------------------------------");
+        ((Componenta) mainDish).stergeStructura(vita);
+        meniu.afiseazaDetaliiStructura(" ");
+
+
     }
 }
