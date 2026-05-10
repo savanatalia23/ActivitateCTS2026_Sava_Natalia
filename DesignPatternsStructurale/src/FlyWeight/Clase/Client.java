@@ -13,7 +13,7 @@ public class Client implements ClientAbstract{
     }
 
     @Override
-    public void printeazaRezervare(Rezervare rezervare) {
+    public void rezerva(Rezervare rezervare) {
         System.out.println("Clientul " + this.nume + " are numarul de telefon " + this.nrTelefon + " si adresa de email " + this.mail);
         System.out.println(rezervare.toString());
     }

@@ -2,6 +2,6 @@ package FlyWeight.Clase;
 
 public interface ClientAbstract {
 
-    void printeazaRezervare(Rezervare rezervare);
+    void rezerva(Rezervare rezervare);
     void plateste(Rezervare rezervare, double taxaPerPersoana);
 }
