@@ -25,6 +25,7 @@ public class Main {
 
         AdaptorObiecteMedicament paracetamolAdaptat = new AdaptorObiecteMedicament(paracetamol);
         realizeazsaAchizitie(paracetamolAdaptat);
+        paracetamolAdaptat.cumparaMedicament();
 
 
 
