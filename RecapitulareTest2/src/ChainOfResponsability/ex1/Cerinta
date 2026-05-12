@@ -1,0 +1,7 @@
+istem de Suport Tehnic (IT)
+H.1. O companie de software dorește să automatizeze gestionarea tichetelor de suport tehnic în funcție de complexitatea problemelor raportate de clienți.
+Sistemul trebuie să preia fiecare cerere și să încerce soluționarea ei la primul nivel (Level 1 - Support Automat),
+care se ocupă de resetări de parole și întrebări frecvente.
+Dacă problema este tehnică și nu poate fi rezolvată automat, aceasta trebuie trimisă către nivelul următor (Level 2 - Specialist IT),
+iar dacă este o eroare critică de sistem care necesită modificări în cod, cererea ajunge în final la ultimul nivel (Level 3 - Echipa de Dezvoltare).
+Să se realizeze modulul care asigură delegarea automată a tichetelor către departamentul capabil să ofere soluția necesară.
