@@ -1,0 +1,13 @@
+Conducerea unui restaurant dorește automatizarea fluxului de comunicare între ospătari și personalul din bucătărie. În prezent, ospătarii trebuie să meargă personal la bucătari pentru a le spune ce să gătească, ceea ce creează haos și întârzieri.
+
+Se dorește implementarea unui sistem software bazat pe obiecte de tip comandă:
+
+Ospătarul (Invoker) preia cererea clientului și creează un obiect comandă specific (ex: ComandaPizza, ComandaPaste).
+
+Ospătarul nu știe cum se prepară mâncarea, el doar "lansează" comanda către sistem.
+
+Bucătarul (Receiver) este cel care deține expertiza și metodele de preparare (ex: preparaPizza(), fierbePaste()).
+
+Comenzile sunt stocate într-o listă de așteptare, permițând bucătarilor să le preia pe rând, în ordinea sosirii, în timp ce ospătarii pot prelua imediat comenzi de la alte mese.
+
+Sistemul trebuie să permită adăugarea de noi preparate în meniu fără a modifica clasa Ospatar.

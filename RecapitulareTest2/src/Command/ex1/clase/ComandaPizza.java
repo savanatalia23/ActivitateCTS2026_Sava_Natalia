@@ -1,0 +1,20 @@
+package Command.ex1.clase;
+
+public class ComandaPizza implements IComanda{
+
+
+    private String nume;
+    private int pret;
+    private Bucatar bucatar;
+
+    public ComandaPizza(String nume, int pret, Bucatar bucatar) {
+        this.nume = nume;
+        this.pret = pret;
+        this.bucatar = bucatar;
+    }
+
+    @Override
+    public void executaComanda() {
+        System.out.println("Pizza" +this.nume+ " costa "+ this.pret + " lei si este preparat de " + bucatar.getNume());
+    }
+}
