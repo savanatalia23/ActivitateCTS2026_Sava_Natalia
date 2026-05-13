@@ -13,6 +13,7 @@ public class RegistruLinie {
         if(linie == null)
         {
             linie = new Linie(nrLinie,primaStatie,ultimaStatie);
+            registruLinii.put(nrLinie, linie);
         }
         return linie;
     }
