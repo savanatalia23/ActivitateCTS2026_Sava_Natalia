@@ -1,0 +1,3 @@
+ Farmacia dorește să anunțe toți clienții abonați la notificările farmaciei cu privire la ofertele de
+preț pentru anumite medicamente. Astfel se dorește implementarea unui modul care atunci când
+apare o ofertă să se trimită notificări tuturor persoanelor abonate la notificările farmaciei
