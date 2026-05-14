@@ -1,0 +1,4 @@
+
+Este dorită implementarea modului de plată pentru clienți care achiziționează produse. Modul
+de plată îl decide clientul în momentul în care trebuie să facă plata. Plata se poate realiza cu cardul
+sau cash. Sa se implementeze modulul de plata.
