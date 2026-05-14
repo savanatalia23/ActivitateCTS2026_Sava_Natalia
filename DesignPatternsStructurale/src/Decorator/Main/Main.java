@@ -23,7 +23,7 @@ public class Main {
             notaDePlataDecorator = new NotaDePlata1Mai(nota1);
         }
 
-        notaDePlataDecorator.printeaza();
+        notaDePlataDecorator.printeazaFelicitare();
 
 
 
