@@ -1,0 +1,11 @@
+ Pentru fiecare rețetă achiziționată de la farmacie trebuie să se rețină informații cu privire la
+client precum: nume, număr de asigurare, etc, precum și informațiile despre rețeta achiziționată
+precum: număr rețetă, suma de plata, număr medicamente, etc. Astfel, dacă un client
+achiziționează mai multe rețete de-a lungul timpului, informațiile despre acesta sunt aceleași și se
+repetă, ocupând foarte multă memorie. Să se implementeze modulul de memorare al tuturor
+achizițiilor de rețete, astfel încât să nu ocupe memorie foarte multă.
+
+
+nume, număr de asigurare
+
+umăr rețetă, suma de plata, număr medicamente
