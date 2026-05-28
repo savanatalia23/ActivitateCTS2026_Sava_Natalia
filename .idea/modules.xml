@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/Seminar2/Seminar2.iml" filepath="$PROJECT_DIR$/Seminar2/Seminar2.iml" />
       <module fileurl="file://$PROJECT_DIR$/SeminarCTS.iml" filepath="$PROJECT_DIR$/SeminarCTS.iml" />
       <module fileurl="file://$PROJECT_DIR$/SubiecteRezolvate/SubiecteRezolvate.iml" filepath="$PROJECT_DIR$/SubiecteRezolvate/SubiecteRezolvate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UniTest/UniTest.iml" filepath="$PROJECT_DIR$/UniTest/UniTest.iml" />
     </modules>
   </component>
 </project>
